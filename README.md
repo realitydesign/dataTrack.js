@@ -12,4 +12,4 @@ dataTrack.js gives you access to 3 custom HTML5 data types: **data-track**, **da
 $.dataTrack();
 ```
 
-**Full documentation, usage, & examples at: http://os.lucidfusion.com/datatrack **
+####Full documentation, usage, & examples at: http://os.lucidfusion.com/datatrack
