@@ -1,3 +1,6 @@
+// dataTrack.js v1.0.1 by Ben Fried @ Lucid Fusion, Inc.
+// http://os.lucidfusion.com/datatrack
+
 (function( $ ) {
     var trackEvents = [];
     
