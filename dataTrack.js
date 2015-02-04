@@ -1,4 +1,4 @@
-// dataTrack.js v1.0.1 by Ben Fried @ Lucid Fusion, Inc.
+// dataTrack.js v1.0.2 by Ben Fried @ Lucid Fusion, Inc.
 // http://os.lucidfusion.com/datatrack
 
 (function( $ ) {
@@ -13,11 +13,13 @@
         }
 
         if (options != 'disable') {
-            var functions = $.extend(
-                function(action, category, label, value) { 
+            if (options) {
+                var functions = options;
+            } else {
+                var functions = function(action, category, label, value) { 
                     ga('send', 'event', category, action, label, value); 
-                }
-            , options);
+                };
+            }
 
             $('[data-track]').each(function() {
                 trackElement($(this), false);
