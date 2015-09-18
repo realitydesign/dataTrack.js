@@ -1,6 +1,6 @@
 dataTrack.js
 ============
-#####A simple cross-browser jQuery plugin to make custom event tracking easy to impliment.
+#####A simple cross-browser jQuery plugin to make custom event tracking easy to implement.
 You can use dataTrack.js with Google's Universal Analytics (analytics.js), Google's Classic Analytics (ga.js), or just about any other tracking system that records events with a Category, Action, Label, and (optional) Value. More impressively, you can configure dataTrack.js to send events to multiple tracking systems at the same time.
 
 
